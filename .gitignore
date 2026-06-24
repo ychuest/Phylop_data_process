@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Large input data
+*.fa
+*.fasta
+*.fa.fai
+*.fasta.fai
+human-sequences.bed
+
+# Generated conservation data
+hg38_conservation_scores/
+phyloP100way_distribution_plots/
+phyloP100way_distribution_report.md
+*.bedGraph
+*.bedGraph.gz
+*.i16.npy
+*.npy
+
+# UCSC/cache/tool artifacts
+ucsc_udc_cache/
+bigWigToBedGraph
+tools/
+
+# Logs
+*.log
+
